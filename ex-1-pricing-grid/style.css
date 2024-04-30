@@ -1,1 +1,67 @@
-/* Start coding here */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+
+.roboto-regular {
+    font-family: "Roboto400", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+  }
+  .roboto-black {
+    font-family: "Roboto900", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+
+  *{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: linear-gradient(100deg, rgb(179, 93, 187) , rgb(60, 160, 206));
+}
+
+.main {
+    display: flex;
+    width: auto;
+    padding: 50vh;
+    justify-content: space-around;
+    font-family: "Roboto400", sans-serif;
+}
+
+button{
+    padding: 15px 10px;
+    background-color: rgb(230, 230, 66);
+    border: none;
+    font-family: "Roboto900", sans-serif;
+    font-size: 20px;
+}
+
+div {
+    text-align: center;
+    gap: 25px;
+}
+
+div h2 {
+    color: white;
+}
+
+.cat,.Fish {
+    display: flex;
+    height: 350px;
+    width: 220px;
+    padding: 20px 20px 0px 20px;
+    gap: 20px;
+    flex-direction: column;
+    background-color: HSLA(0, 0%, 100%, 0.2);
+}
+
+.dog {
+    display: flex;
+    height: 490px;
+    width: 220px;
+    padding: 20px 20px 20px 20px;
+    gap: 30px;
+    flex-direction: column;
+    background-color: HSLA(0, 0%, 100%, 0.2);
+}
